@@ -1,7 +1,7 @@
 #Elvar Halldór Hróarr Sigurðsson
 #10.09.18
 #Verkefni4
-
+from sys import argv
 from bottle import*
 import urllib.request, json
 
@@ -42,5 +42,5 @@ def static_skra(skra):
 def villa(error):
     return "<h1 style = color:red>Þessi síða finnst ekki</h1>"
 
-run(host="localhost", port=8080, debug=True)
+#run(host="localhost", port=8080, debug=True)
 run(host='0.0.0.0', port=os.environ.get(PORT))
