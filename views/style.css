@@ -1,0 +1,28 @@
+body{
+	max-width: 50em;
+}
+
+.row{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.row section {
+	border: 0;
+
+}
+
+header, footer {
+	border: 1px solid gray;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.pd2{
+	padding-left: 2em;
+}
